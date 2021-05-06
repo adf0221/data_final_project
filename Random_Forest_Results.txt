@@ -4,43 +4,20 @@ No Frauds: 99.83% of the dataset
 Frauds: 0.17% of the dataset
 
 Confusion Matrix
-[[85302     4]
- [   30   107]]
+[[85275     8]
+ [   33   127]]
 
 Classification Report
               precision    recall  f1-score   support
 
-           0       1.00      1.00      1.00     85306
-           1       0.96      0.78      0.86       137
+           0       1.00      1.00      1.00     85283
+           1       0.94      0.79      0.86       160
 
     accuracy                           1.00     85443
-   macro avg       0.98      0.89      0.93     85443
+   macro avg       0.97      0.90      0.93     85443
 weighted avg       1.00      1.00      1.00     85443
 
 
 Accuracy Score
-0.999602073897218
-
-Results for Scaled Random Forest run
-
-No Frauds: 99.83% of the dataset
-Frauds: 0.17% of the dataset
-
-Confusion Matrix
-[[85287    10]
- [   29   117]]
-
-Classification Report
-              precision    recall  f1-score   support
-
-           0       1.00      1.00      1.00     85297
-           1       0.92      0.80      0.86       146
-
-    accuracy                           1.00     85443
-   macro avg       0.96      0.90      0.93     85443
-weighted avg       1.00      1.00      1.00     85443
-
-
-Accuracy Score
-0.9995435553526912
+0.9995201479348805
 
