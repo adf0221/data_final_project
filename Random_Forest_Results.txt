@@ -1,0 +1,224 @@
+Results for Scaled Random Forest run
+
+No Frauds: 99.83% of the training set
+Frauds: 0.17% of the training set
+
+V17              0.168382
+V12              0.129965
+V14              0.118680
+V10              0.078117
+V11              0.065555
+V16              0.062664
+V9               0.036710
+V18              0.033380
+V4               0.026703
+V7               0.023515
+V3               0.020182
+V26              0.019571
+V1               0.017611
+V8               0.016010
+V21              0.015800
+V6               0.013649
+V15              0.012779
+V19              0.012691
+V28              0.012539
+Time_Scaled      0.011610
+V24              0.011442
+V2               0.011210
+V20              0.011038
+V13              0.010852
+Amount_Scaled    0.010784
+V22              0.010659
+V5               0.010237
+V27              0.009854
+V25              0.009847
+V23              0.007965
+dtype: float64
+Confusion Matrix
+[[85275     9]
+ [   28   131]]
+
+Classification Report
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     85284
+           1       0.94      0.82      0.88       159
+
+    accuracy                           1.00     85443
+   macro avg       0.97      0.91      0.94     85443
+weighted avg       1.00      1.00      1.00     85443
+
+
+Accuracy Score=0.9995669627705019
+Precision Score=0.9357142857142857
+Recall Score=0.8238993710691824
+F2 Score=0.8440721649484536
+----------------------------------------------------------
+Results for Oversampled Random Forest run
+
+No Frauds: 50.0% of the training set
+Frauds: 50.0% of the training set
+
+V14              0.177324
+V10              0.121215
+V17              0.095601
+V4               0.091953
+V11              0.088399
+V12              0.071232
+V3               0.056921
+V16              0.037333
+V7               0.035391
+V2               0.031856
+V9               0.022292
+V18              0.019539
+V8               0.016848
+V21              0.013249
+V27              0.011618
+V20              0.010286
+Amount_Scaled    0.009889
+V5               0.009686
+V28              0.008182
+V1               0.008142
+Time_Scaled      0.007556
+V26              0.007187
+V19              0.006978
+V6               0.006742
+V15              0.006606
+V13              0.006483
+V23              0.006229
+V22              0.005941
+V25              0.004894
+V24              0.004428
+dtype: float64
+Confusion Matrix
+[[85270    14]
+ [   24   135]]
+
+Classification Report
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     85284
+           1       0.91      0.85      0.88       159
+
+    accuracy                           1.00     85443
+   macro avg       0.95      0.92      0.94     85443
+weighted avg       1.00      1.00      1.00     85443
+
+
+Accuracy Score=0.9995552590615966
+Precision Score=0.9060402684563759
+Recall Score=0.8490566037735849
+F2 Score=0.8598726114649683
+----------------------------------------------------------
+Results for Undersampled Random Forest run
+
+No Frauds: 50.0% of the training set
+Frauds: 50.0% of the training set
+
+V14              0.173458
+V10              0.154975
+V12              0.101712
+V17              0.089798
+V4               0.076556
+V16              0.059158
+V3               0.051673
+V7               0.039369
+V11              0.035196
+V9               0.017713
+V21              0.017015
+V2               0.016458
+V20              0.014065
+V6               0.013837
+V18              0.013674
+V8               0.011864
+V19              0.011352
+V1               0.011336
+V5               0.010174
+V15              0.009267
+V26              0.009251
+V28              0.009190
+Amount_Scaled    0.008420
+V13              0.007886
+V23              0.006778
+V25              0.006313
+Time_Scaled      0.006192
+V22              0.005924
+V24              0.005902
+V27              0.005495
+dtype: float64
+Confusion Matrix
+[[82736  2548]
+ [   11   148]]
+
+Classification Report
+              precision    recall  f1-score   support
+
+           0       1.00      0.97      0.98     85284
+           1       0.05      0.93      0.10       159
+
+    accuracy                           0.97     85443
+   macro avg       0.53      0.95      0.54     85443
+weighted avg       1.00      0.97      0.98     85443
+
+
+Accuracy Score=0.970050208911204
+Precision Score=0.05489614243323442
+Recall Score=0.9308176100628931
+F2 Score=0.22208883553421366
+----------------------------------------------------------
+Results for Over_and_Undersampled Random Forest run
+
+No Frauds: 50.0% of the training set
+Frauds: 50.0% of the training set
+
+V14              0.197358
+V10              0.142046
+V12              0.117302
+V4               0.090872
+V17              0.068872
+V11              0.055014
+V16              0.042084
+V3               0.030627
+V18              0.030011
+V9               0.024406
+V2               0.021374
+V7               0.019187
+V8               0.017311
+V1               0.014423
+V21              0.013458
+V27              0.013347
+V6               0.010959
+Amount_Scaled    0.010085
+V20              0.009125
+V19              0.007905
+V28              0.007488
+Time_Scaled      0.007141
+V13              0.007074
+V26              0.006995
+V5               0.006761
+V23              0.006605
+V15              0.006377
+V22              0.006017
+V25              0.005255
+V24              0.004521
+dtype: float64
+Confusion Matrix
+[[85257    27]
+ [   22   137]]
+
+Classification Report
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     85284
+           1       0.84      0.86      0.85       159
+
+    accuracy                           1.00     85443
+   macro avg       0.92      0.93      0.92     85443
+weighted avg       1.00      1.00      1.00     85443
+
+
+Accuracy Score=0.9994265182636377
+Precision Score=0.8353658536585366
+Recall Score=0.8616352201257862
+F2 Score=0.8562500000000001
+----------------------------------------------------------
