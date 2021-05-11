@@ -1,0 +1,392 @@
+Results for Scaled Random Forest run
+
+No Frauds: 99.83% of the training set
+Frauds: 0.17% of the training set
+
+V12              0.148114
+V17              0.142548
+V14              0.125759
+V10              0.093972
+V16              0.069346
+V11              0.057905
+V18              0.041400
+V9               0.034061
+V4               0.028497
+V3               0.023976
+V7               0.018906
+V21              0.016798
+V15              0.014989
+V5               0.014956
+V26              0.014903
+V6               0.014628
+V1               0.014287
+V13              0.012898
+V19              0.011778
+V28              0.011242
+Time_Scaled      0.010936
+V20              0.010330
+V25              0.009484
+Amount_Scaled    0.009320
+V27              0.009285
+V8               0.009231
+V22              0.008612
+V2               0.008078
+V24              0.007596
+V23              0.006164
+dtype: float64
+Confusion Matrix
+[[227417     31]
+ [    96    302]]
+
+Classification Report
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00    227448
+           1       0.91      0.76      0.83       398
+
+    accuracy                           1.00    227846
+   macro avg       0.95      0.88      0.91    227846
+weighted avg       1.00      1.00      1.00    227846
+
+
+Accuracy Score=0.9994426059706996
+Precision Score=0.9069069069069069
+Recall Score=0.7587939698492462
+F2 Score=0.7844155844155843
+----------------------------------------------------------
+Results for Oversampled Random Forest run
+
+No Frauds: 50.0% of the training set
+Frauds: 50.0% of the training set
+
+V14              0.183689
+V4               0.155143
+V12              0.123726
+V10              0.113573
+V17              0.083754
+V11              0.044782
+V16              0.032711
+V3               0.031987
+V9               0.029071
+V7               0.022813
+V2               0.022405
+V18              0.017131
+V19              0.015681
+V1               0.014245
+V5               0.011114
+Amount_Scaled    0.010849
+V24              0.010338
+V8               0.009936
+V27              0.009439
+V6               0.008366
+V26              0.007869
+Time_Scaled      0.006656
+V25              0.006010
+V20              0.005372
+V15              0.005045
+V21              0.004324
+V13              0.004085
+V22              0.004033
+V23              0.003017
+V28              0.002833
+dtype: float64
+Confusion Matrix
+[[227394     54]
+ [    89    309]]
+
+Classification Report
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00    227448
+           1       0.85      0.78      0.81       398
+
+    accuracy                           1.00    227846
+   macro avg       0.93      0.89      0.91    227846
+weighted avg       1.00      1.00      1.00    227846
+
+
+Accuracy Score=0.9993723831008664
+Precision Score=0.8512396694214877
+Recall Score=0.7763819095477387
+F2 Score=0.7902813299232736
+----------------------------------------------------------
+Results for Undersampled_full Random Forest run
+
+No Frauds: 50.0% of the training set
+Frauds: 50.0% of the training set
+
+V12              0.168552
+V14              0.163321
+V4               0.147779
+V10              0.101081
+V3               0.077265
+V17              0.054292
+V11              0.038280
+V7               0.026936
+V27              0.024200
+V2               0.019764
+V16              0.015438
+V19              0.015248
+V15              0.012857
+V9               0.012124
+V6               0.011639
+V21              0.010389
+V5               0.010086
+V20              0.009616
+Amount_Scaled    0.009070
+V25              0.008684
+V18              0.008566
+V1               0.008230
+V13              0.007611
+V26              0.007478
+V28              0.006878
+V22              0.006508
+V23              0.005733
+V24              0.005405
+V8               0.004326
+Time_Scaled      0.002642
+dtype: float64
+Confusion Matrix
+[[216355  11093]
+ [    36    362]]
+
+Classification Report
+              precision    recall  f1-score   support
+
+           0       1.00      0.95      0.97    227448
+           1       0.03      0.91      0.06       398
+
+    accuracy                           0.95    227846
+   macro avg       0.52      0.93      0.52    227846
+weighted avg       1.00      0.95      0.97    227846
+
+
+Accuracy Score=0.9511556051016915
+Precision Score=0.03160192055870799
+Recall Score=0.9095477386934674
+F2 Score=0.13872920978002606
+----------------------------------------------------------
+Results for Undersampled_4x Random Forest run
+
+No Frauds: 80.0% of the training set
+Frauds: 20.0% of the training set
+
+V14              0.200085
+V12              0.121680
+V11              0.089567
+V17              0.085269
+V4               0.084167
+V10              0.082491
+V16              0.068288
+V3               0.062729
+V7               0.034431
+V6               0.016689
+V18              0.013575
+V2               0.012348
+V15              0.011744
+V9               0.011297
+V19              0.011231
+V21              0.010555
+Amount_Scaled    0.008277
+V26              0.007932
+V24              0.007898
+V22              0.006540
+Time_Scaled      0.006447
+V1               0.006247
+V5               0.006062
+V13              0.005734
+V8               0.005454
+V23              0.005379
+V20              0.004916
+V25              0.004882
+V27              0.004250
+V28              0.003835
+dtype: float64
+Confusion Matrix
+[[226735    713]
+ [    55    343]]
+
+Classification Report
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00    227448
+           1       0.32      0.86      0.47       398
+
+    accuracy                           1.00    227846
+   macro avg       0.66      0.93      0.74    227846
+weighted avg       1.00      1.00      1.00    227846
+
+
+Accuracy Score=0.9966293022480096
+Precision Score=0.3248106060606061
+Recall Score=0.8618090452261307
+F2 Score=0.6476586102719032
+----------------------------------------------------------
+Results for Undersampled_Tomek Random Forest run
+
+No Frauds: 99.83% of the training set
+Frauds: 0.17% of the training set
+
+V17              0.183022
+V12              0.124129
+V14              0.115465
+V10              0.091458
+V16              0.086512
+V11              0.048933
+V18              0.033544
+V3               0.030938
+V4               0.028735
+V9               0.023353
+V7               0.019047
+V1               0.017232
+V20              0.015607
+V15              0.014898
+V26              0.014365
+V19              0.014255
+V2               0.013067
+V13              0.012737
+V5               0.012697
+V6               0.011802
+Amount_Scaled    0.010756
+V25              0.010616
+V21              0.010073
+V8               0.009921
+Time_Scaled      0.008864
+V23              0.008575
+V27              0.008522
+V28              0.008012
+V24              0.006749
+V22              0.006116
+dtype: float64
+Confusion Matrix
+[[227414     34]
+ [    92    306]]
+
+Classification Report
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00    227448
+           1       0.90      0.77      0.83       398
+
+    accuracy                           1.00    227846
+   macro avg       0.95      0.88      0.91    227846
+weighted avg       1.00      1.00      1.00    227846
+
+
+Accuracy Score=0.9994469949000641
+Precision Score=0.9
+Recall Score=0.7688442211055276
+F2 Score=0.7919254658385092
+----------------------------------------------------------
+Results for Undersampled_ENN Random Forest run
+
+No Frauds: 99.83% of the training set
+Frauds: 0.17% of the training set
+
+V17              0.184664
+V12              0.156255
+V14              0.132085
+V10              0.092145
+V16              0.073793
+V11              0.041516
+V9               0.034207
+V18              0.031598
+V7               0.027234
+V3               0.023774
+V4               0.019858
+V19              0.015028
+V1               0.013100
+V6               0.012880
+V13              0.012757
+V15              0.012673
+V5               0.010679
+V21              0.010113
+V8               0.009705
+V2               0.009495
+V20              0.009364
+Amount_Scaled    0.008898
+V28              0.008681
+V25              0.008067
+Time_Scaled      0.007981
+V23              0.007071
+V27              0.007047
+V26              0.006876
+V22              0.006688
+V24              0.005767
+dtype: float64
+Confusion Matrix
+[[227398     50]
+ [    86    312]]
+
+Classification Report
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00    227448
+           1       0.86      0.78      0.82       398
+
+    accuracy                           1.00    227846
+   macro avg       0.93      0.89      0.91    227846
+weighted avg       1.00      1.00      1.00    227846
+
+
+Accuracy Score=0.9994031056064183
+Precision Score=0.861878453038674
+Recall Score=0.7839195979899497
+F2 Score=0.7983623336745137
+----------------------------------------------------------
+Results for Over_and_Undersampled Random Forest run
+
+No Frauds: 66.63% of the training set
+Frauds: 33.37% of the training set
+
+V14              0.146272
+V10              0.142718
+V12              0.120217
+V17              0.116503
+V4               0.106390
+V3               0.058308
+V11              0.048395
+V2               0.032623
+V16              0.032256
+V7               0.026839
+V9               0.018947
+V18              0.016419
+V5               0.014900
+V27              0.013906
+V6               0.011531
+V1               0.010579
+V19              0.009268
+V8               0.008910
+V24              0.008789
+Amount_Scaled    0.008565
+V21              0.008218
+V26              0.006770
+V25              0.005779
+Time_Scaled      0.005615
+V22              0.003947
+V15              0.003885
+V20              0.003848
+V13              0.003766
+V28              0.003294
+V23              0.002543
+dtype: float64
+Confusion Matrix
+[[227371     77]
+ [    70    328]]
+
+Classification Report
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00    227448
+           1       0.81      0.82      0.82       398
+
+    accuracy                           1.00    227846
+   macro avg       0.90      0.91      0.91    227846
+weighted avg       1.00      1.00      1.00    227846
+
+
+Accuracy Score=0.9993548273834081
+Precision Score=0.8098765432098766
+Recall Score=0.8241206030150754
+F2 Score=0.8212318477716576
+----------------------------------------------------------
