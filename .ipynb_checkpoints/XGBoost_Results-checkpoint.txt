@@ -1,0 +1,168 @@
+Results for Scaled XGBoost run
+
+Confusion Matrix
+[[227419     26]
+ [    96    305]]
+
+Classification Report
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00    227445
+           1       0.92      0.76      0.83       401
+
+    accuracy                           1.00    227846
+   macro avg       0.96      0.88      0.92    227846
+weighted avg       1.00      1.00      1.00    227846
+
+
+Accuracy Score=0.9994645506175224
+Precision Score=0.9214501510574018
+Recall Score=0.7605985037406484
+F2 Score=0.7881136950904393
+Results for Oversampled XGBoost run
+
+Confusion Matrix
+[[227379     66]
+ [    82    319]]
+
+Classification Report
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00    227445
+           1       0.83      0.80      0.81       401
+
+    accuracy                           1.00    227846
+   macro avg       0.91      0.90      0.91    227846
+weighted avg       1.00      1.00      1.00    227846
+
+
+Accuracy Score=0.9993504384540435
+Precision Score=0.8285714285714286
+Recall Score=0.7955112219451371
+F2 Score=0.8019105077928608
+Results for Undersampled_Full XGBoost run
+
+Confusion Matrix
+[[221743   5702]
+ [    48    353]]
+
+Classification Report
+              precision    recall  f1-score   support
+
+           0       1.00      0.97      0.99    227445
+           1       0.06      0.88      0.11       401
+
+    accuracy                           0.97    227846
+   macro avg       0.53      0.93      0.55    227846
+weighted avg       1.00      0.97      0.99    227846
+
+
+Accuracy Score=0.9747636561537179
+Precision Score=0.05829892650701899
+Recall Score=0.8802992518703242
+F2 Score=0.23044783914349132
+Results for Undersampled_4x XGBoost run
+
+Confusion Matrix
+[[225906   1539]
+ [    64    337]]
+
+Classification Report
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      1.00    227445
+           1       0.18      0.84      0.30       401
+
+    accuracy                           0.99    227846
+   macro avg       0.59      0.92      0.65    227846
+weighted avg       1.00      0.99      1.00    227846
+
+
+Accuracy Score=0.992964546228593
+Precision Score=0.17963752665245203
+Recall Score=0.8403990024937655
+F2 Score=0.48419540229885055
+Results for Undersampled_Tomek XGBoost run
+
+Confusion Matrix
+[[227422     23]
+ [    95    306]]
+
+Classification Report
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00    227445
+           1       0.93      0.76      0.84       401
+
+    accuracy                           1.00    227846
+   macro avg       0.96      0.88      0.92    227846
+weighted avg       1.00      1.00      1.00    227846
+
+
+Accuracy Score=0.9994821063349807
+Precision Score=0.9300911854103343
+Recall Score=0.7630922693266833
+F2 Score=0.7915157785825142
+Results for Undersampled_ENN XGBoost run
+
+Confusion Matrix
+[[227405     40]
+ [    86    315]]
+
+Classification Report
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00    227445
+           1       0.89      0.79      0.83       401
+
+    accuracy                           1.00    227846
+   macro avg       0.94      0.89      0.92    227846
+weighted avg       1.00      1.00      1.00    227846
+
+
+Accuracy Score=0.9994469949000641
+Precision Score=0.8873239436619719
+Recall Score=0.7855361596009975
+F2 Score=0.8039816232771823
+Results for Over_And_Undersampled XGBoost run
+
+Confusion Matrix
+[[227354     91]
+ [    77    324]]
+
+Classification Report
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00    227445
+           1       0.78      0.81      0.79       401
+
+    accuracy                           1.00    227846
+   macro avg       0.89      0.90      0.90    227846
+weighted avg       1.00      1.00      1.00    227846
+
+
+Accuracy Score=0.9992626598667521
+Precision Score=0.7807228915662651
+Recall Score=0.8079800498753117
+F2 Score=0.8023774145616642
+Results for Scaled XGBoost run
+
+Confusion Matrix
+[[85293     7]
+ [   36   107]]
+
+Classification Report
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     85300
+           1       0.94      0.75      0.83       143
+
+    accuracy                           1.00     85443
+   macro avg       0.97      0.87      0.92     85443
+weighted avg       1.00      1.00      1.00     85443
+
+
+Accuracy Score=0.9994967405170698
+Precision Score=0.9385964912280702
+Recall Score=0.7482517482517482
+F2 Score=0.7798833819241983
