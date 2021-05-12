@@ -1,0 +1,7 @@
+Results for Scaled autoML run
+
+Best Model 
+Pipeline(steps=[('linearsvc', LinearSVC(C=0.5, loss='hinge', tol=0.001))])
+Best Score 
+0.6877470355731226
+----------------------------------------------------------
